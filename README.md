@@ -60,6 +60,7 @@ void setup(){
 ```
 - Notes On the Code: I Used PA2 Pinout as TX; and PA3 Pinout as RX; just connected them to another RX/TX after you uploaded the code.
 - You can also Used another Pinout which is available 
+- in the ESP32-CAM I Used GPIO 3 as RX; GPIO 1 as TX;
 
 Now Lets try!
 This is code for sender STM32, you can use 9600 baud
