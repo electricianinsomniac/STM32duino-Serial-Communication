@@ -25,3 +25,12 @@ These steps are discussed in details below
  - Software: make sure you have the Arduino IDE and install this library 
    https://raw.githubusercontent.com/stm32duino/BoardManagerFiles/master/STM32/package_stm_index.json
  - Example: open, compile, flash and run one of the library examples
+
+### Hardware
+The hardware steps to take
+ - You need an STM32, e.g. an [STM32f407](https://www.st.com/en/microcontrollers-microprocessors/stm32f407-417.html#overview).
+ - than I Used ESP32CAM, e.g. an [ESP32-CAM](https://makeradvisor.com/esp32-camera-cam-boards-review-comparison/).
+ - Than I Connect the ESP32-CAM board to your computer using an FTDI programmer. Follow the next schematic diagram: 
+ ![ConnectoFTDI](ESPToFTDI.png)
+   Or You can buy Dev Board module for ESP32-CAM [Dev Board](https://www.lazada.co.id/products/esp32-cam-dev-board-usb-to-ttl-ch340-camera-ov2640-esp-32-esp-32-i5080040515.html).
+![BoardMOD](Board-mod.jpg)
