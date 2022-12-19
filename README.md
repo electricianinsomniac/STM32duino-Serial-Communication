@@ -34,7 +34,8 @@ Before Used Read about STM32
 The hardware 
 ![STM32](STM32 (2).png)
  - You need an STM32, e.g. an [STM32f407](https://www.st.com/en/microcontrollers-microprocessors/stm32f407-417.html#overview).
- - than I Used ESP32CAM, e.g. an [ESP32-CAM](https://makeradvisor.com/esp32-camera-cam-boards-review-comparison/).
+ - You can use any [Arduino family](https://www.arduino.cc/en/hardware) or [ESP32](https://cdn.sparkfun.com/assets/7/8/e/4/f/esp32-s2_datasheet.pdf)
+ in this project I Used ESP32CAM, e.g. an [ESP32-CAM](https://makeradvisor.com/esp32-camera-cam-boards-review-comparison/).
  - Than I Connect the ESP32-CAM board to your computer using an FTDI programmer. Follow the next schematic diagram: 
  ![ConnectoFTDI](ESPToFTDI.png)
    Or You can buy Dev Board module for ESP32-CAM [Dev Board](https://www.lazada.co.id/products/esp32-cam-dev-board-usb-to-ttl-ch340-camera-ov2640-esp-32-esp-32-i5080040515.html). which are sold separately!.
@@ -52,8 +53,49 @@ The software
 - First you have to add this code in void setup(); to Activate Serial Communication on STM32Board  
 
 ```
-  Serial.begin(115200);
+void setup(){
+  Serial.begin(9600);
   HardwareSerial Serial1(PA2,PA3);
+  }
 ```
 - Notes On the Code: I Used PA2 Pinout as TX; and PA3 Pinout as RX; just connected them to another RX/TX after you uploaded the code.
-- You can also Used another
+- You can also Used another Pinout which is available 
+
+Now Lets try!
+This is code for sender STM32, you can use 9600 baud
+```
+void setup() {
+  //Serial Begin at 9600 Baud
+  Serial.begin(9600);
+  HardwareSerial Serial1(PA2,PA3);
+}
+
+void loop() {
+  //Write '123' to Serial
+  Serial.write(123);
+  delay(1000);
+}
+```
+And this is code for Receiver ESP32; First declared a variable to store received data. In Setup, Serial Begin at 9600 Baud. In the loop, read the serial data and store it in a variable.
+
+```
+int data; //Initialized variable to store recieved data
+
+void setup() {
+  //Serial Begin at 9600 Baud 
+  Serial.begin(9600);
+}
+
+void loop() {
+  data = Serial.read(); //Read the serial data and store it
+  delay(1000);
+}
+```
+
+### Upload the Code
+Upload the code to STM32 and Arduino Board. 
+Before uploading, make sure your RX/TX not connected to each other;
+After uploading code. Connect TX STM32 TO RX ESP32 if its success,in serial monitor esp32 ‘123’ will be transmitted from Sender STM32 to Receiver ESP32. 
+
+### Another project 
+Lets see another project such as How to [Connecting ESP32CAM to Smartphone] by using WIFI connection 
