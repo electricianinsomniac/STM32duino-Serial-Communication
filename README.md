@@ -32,6 +32,7 @@ Before Used Read about STM32
 
 ### Hardware
 The hardware 
+![STM32](STM32 (2).png)
  - You need an STM32, e.g. an [STM32f407](https://www.st.com/en/microcontrollers-microprocessors/stm32f407-417.html#overview).
  - than I Used ESP32CAM, e.g. an [ESP32-CAM](https://makeradvisor.com/esp32-camera-cam-boards-review-comparison/).
  - Than I Connect the ESP32-CAM board to your computer using an FTDI programmer. Follow the next schematic diagram: 
