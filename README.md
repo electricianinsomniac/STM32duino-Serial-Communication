@@ -101,4 +101,4 @@ After uploading code. Connect TX STM32 TO RX ESP32 if its success,in serial moni
 ![BoardMOD](SerialCom.png)
 
 ### Another project 
-Lets see another project such as How to [Connecting ESP32CAM to Smartphone] by using WIFI connection 
+Lets see another project such as How to [Connecting ESP32CAM to Smartphone](https://github.com/electricianinsomniac/ESP32CAM-to-Smartphone) by using WIFI connection 
