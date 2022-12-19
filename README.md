@@ -97,5 +97,7 @@ Upload the code to STM32 and Arduino Board.
 Before uploading, make sure your RX/TX not connected to each other;
 After uploading code. Connect TX STM32 TO RX ESP32 if its success,in serial monitor esp32 ‘123’ will be transmitted from Sender STM32 to Receiver ESP32. 
 
+![BoardMOD](SerialCom.png)
+
 ### Another project 
 Lets see another project such as How to [Connecting ESP32CAM to Smartphone] by using WIFI connection 
