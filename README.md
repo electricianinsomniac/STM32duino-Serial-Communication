@@ -28,7 +28,7 @@ These steps are discussed in details below
 
 - I Used STM32 and connected with ESP32-CAM
 Before Used Read about STM32
-- STM32 Library that I Used [STM32f407]https://www.renesas.com/us/en/document/dst/ra4m3-group-datasheet?r=1400806
+- STM32 Library that I Used [STM32f407]https://www.renesas.com/us/en/document/dst/ra4m3-group-datasheet?r=1400806 ; I recommend to always read the datasheet.
 
 ### Hardware
 The hardware 
@@ -54,5 +54,4 @@ The software
   Serial.begin(115200);
   HardwareSerial Serial1(PA2,PA3);
 ```
-Notes On the Code:
-- 
+- Notes On the Code: I Used PA2 Pinout as TX; and PA3 Pinout as RX; just connected them to another RX/TX after you uploaded the code.
