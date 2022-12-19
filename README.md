@@ -55,3 +55,4 @@ The software
   HardwareSerial Serial1(PA2,PA3);
 ```
 - Notes On the Code: I Used PA2 Pinout as TX; and PA3 Pinout as RX; just connected them to another RX/TX after you uploaded the code.
+- You can also Used another
