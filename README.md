@@ -4,7 +4,7 @@ How to Serial communication between STM32 board and Arduino or ESP32 Board
 
 ## Introduction
 
-The serial communication makes sure every byte of the data is transferred to the other device. 
+The serial communication makes sure every byte of the data is transferred to the another device. 
 RX receives serial data and TX sends the serial data to other board or device. 
 In this write-up, serial communication in Arduino is explained in detail with the help of a simple example.
 
@@ -38,7 +38,7 @@ The hardware
  in this project I Used ESP32CAM, e.g. an [ESP32-CAM](https://makeradvisor.com/esp32-camera-cam-boards-review-comparison/).
  - Than Connect the ESP32-CAM board to your computer using an FTDI programmer. Follow the next schematic diagram: 
  ![ConnectoFTDI](ESPToFTDI.png)
-   Or You can buy Dev Board module for ESP32-CAM [Dev Board](https://www.lazada.co.id/products/esp32-cam-dev-board-usb-to-ttl-ch340-camera-ov2640-esp-32-esp-32-i5080040515.html). which are sold separately!.
+   Or You can buy a Dev Board module for ESP32-CAM [Dev Board](https://www.lazada.co.id/products/esp32-cam-dev-board-usb-to-ttl-ch340-camera-ov2640-esp-32-esp-32-i5080040515.html). which are sold separately!.
 ![BoardMOD](Board-mod.jpg)
 
 ### Software
@@ -50,7 +50,7 @@ The software
 
 ### Run the program
 
-- First you have to add this code in void setup(); to Activate Serial Communication on STM32Board  
+- First, you have to add this code in void setup(); to Activate Serial Communication on STM32Board  
 
 ```
 void setup(){
