@@ -45,7 +45,7 @@ The hardware
 The software 
  - It is assumed that you have the Arduino IDE installed. If not, refer to "Install the Arduino Desktop IDE" 
    on the [Arduino site](https://www.arduino.cc/en/Guide/HomePage). If you follow the default install, 
- - It is assumed that you have to install JSON library on the top
+ - It is assumed that you have to install the JSON library on the top
 
 
 ### Run the program
