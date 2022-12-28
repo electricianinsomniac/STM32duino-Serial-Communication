@@ -2,6 +2,8 @@
 
 How to Serial communication between STM32 board and Arduino or ESP32 Board
 
+by using Arduino IDE application.
+
 ## Introduction
 
 The serial communication makes sure every byte of the data is transferred to the another device. 
