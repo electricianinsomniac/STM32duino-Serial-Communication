@@ -12,8 +12,8 @@ In this write-up, serial communication in Arduino is explained in detail with th
 I have a project with stm32 but I'm lack of familiarity about Cube IDE, I'm looking for a way to program stm32 with Arduino IDE. 
 
 ## Acknowledgements
-- [STM32 Flasher] (https://www.st.com/en/development-tools/flasher-stm32.html)
-- [STM32 as Arduino] (https://create.arduino.cc/projecthub/akarsh98/using-a-stm32-like-an-arduino-tutorial-stm32f103c8-1073cb)
+- [STM32 Flasher](https://www.st.com/en/development-tools/flasher-stm32.html)
+- [STM32 as Arduino](https://create.arduino.cc/projecthub/akarsh98/using-a-stm32-like-an-arduino-tutorial-stm32f103c8-1073cb)
 
 
 ## Background
