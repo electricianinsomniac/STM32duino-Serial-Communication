@@ -33,6 +33,7 @@ These steps are discussed in details below
  - Software: make sure you have the Arduino IDE and install this library 
    https://raw.githubusercontent.com/stm32duino/BoardManagerFiles/master/STM32/package_stm_index.json
  - Example: open, compile, flash and run one of the library examples
+ - Download and install the Flasher tool by using which you can flash 
 
 - I Used STM32 and connected with ESP32-CAM
 Before Used Read about STM32
