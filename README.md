@@ -53,7 +53,7 @@ The hardware
 ![BoardMOD](Board-mod.jpg)
 
 ### Software
-The software 
+The software that used
  - It is assumed that you have the Arduino IDE installed. If not, refer to "Install the Arduino Desktop IDE" 
    on the [Arduino site](https://www.arduino.cc/en/Guide/HomePage). If you follow the default install, 
  - It is assumed that you have to install the JSON library on the top
