@@ -48,6 +48,7 @@ The hardware
  in this project I Used ESP32CAM, e.g. an [ESP32-CAM](https://makeradvisor.com/esp32-camera-cam-boards-review-comparison/).
  - Than Connect the ESP32-CAM board to your computer using an FTDI programmer. Follow the next schematic diagram: 
  ![ConnectoFTDI](ESPToFTDI.png)
+ 
    Or You can buy a Dev Board module for ESP32-CAM [Dev Board](https://www.lazada.co.id/products/esp32-cam-dev-board-usb-to-ttl-ch340-camera-ov2640-esp-32-esp-32-i5080040515.html). which are sold separately!.
 ![BoardMOD](Board-mod.jpg)
 
