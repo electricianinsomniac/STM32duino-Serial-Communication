@@ -31,7 +31,7 @@ Or in STM32 you can use PA2 Pinout as USART_TX; and PA3 Pinout as USART_RX
 These steps are discussed in details below
 
  - Hardware: make sure you have two microcontroller and wire them together
- - Software: make sure you have the Arduino IDE and install this library 
+ - Software: make sure you have the [Arduino IDE](https://www.arduino.cc/en/software) and install this library 
    https://raw.githubusercontent.com/stm32duino/BoardManagerFiles/master/STM32/package_stm_index.json
  - Example: open, compile, flash and run one of the library examples
  - Download and install the Flasher tool by using which you can flash 
