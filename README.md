@@ -34,7 +34,7 @@ These steps are discussed in details below
  - Software: make sure you have the [Arduino IDE](https://www.arduino.cc/en/software) and install this library 
    https://raw.githubusercontent.com/stm32duino/BoardManagerFiles/master/STM32/package_stm_index.json
  - Example: open, compile, flash and run one of the library examples
- - Download and install the Flasher tool by using which you can flash 
+ - Download and install the Flasher tool by using which Device Type 
 
 - I Used STM32 and connected with ESP32-CAM
 Before Used Read about [STM32](https://www.stm32duino.com/viewtopic.php?t=1512)
