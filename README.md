@@ -60,7 +60,7 @@ The software that used
  - Stm32 need flasher to programed, so make sure that [STM32 Flasher](https://www.st.com/en/development-tools/flasher-stm32.html) installed
 
 
-### Run the program
+## Run the program
 
 - First, you have to add this code in void setup(); to Activate Serial Communication on STM32Board  
 
