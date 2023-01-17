@@ -24,7 +24,7 @@ for example in Arduino pin 0 and pin 1 are assigned for the serial communication
 [UART](https://www.techopedia.com/definition/3669/universal-asynchronous-receivertransmitter-uart) (Universal Asynchronous Receiver Transmitter) and 
 [USART](https://www.techopedia.com/definition/9850/universal-synchronousasynchronous-receivertransmitter-usart) (Universal Synchronous Asynchronous Receiver Transmitter) 
 and they are also known as Tx/Rx pins
-Or in STM32 you can use PA2 Pinout as USART_TX; and PA3 Pinout as USART_RX
+Or in STM32 you can use PA2 Pinout as USART_TX and PA3 Pinout as USART_RX
 
 ## Getting started
 
